@@ -1,0 +1,72 @@
+/*remember semi colons!!*/
+
+body{
+	font-family: arial, sans-serif;
+}
+header {
+	background-color:#00e1ff;
+	padding:10px;
+	text-align:center;
+	}
+
+h1{
+	color:#fff;
+}
+
+nav a{
+	background-color:hotpink;
+	margin: 20px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration:none;
+}
+
+.main{ width:70%;
+        margin:auto;
+        background-image: url('wall.jpg');
+        background-position:top;
+        background-size:contain;
+        padding: 20px;
+        }
+ article{
+ 	background-color: #000;
+ 	color:#d8ff00;
+ 	padding:15px;
+ 	margin: 20px;
+ }
+ article:last-of-type{
+ 	color: hotpink;
+ }
+
+ h2{
+ 	font-family:serif;
+ 	font-size: 20px;
+ }
+
+ ul{
+ 	list-style: square inside;
+
+ }
+ 
+ footer{
+ 	width:70%;
+ 	margin:0 auto;
+ 	padding:5px 20px;
+ 	background-color: blueviolet;
+ 	height: 90px;
+ }
+
+ .footer{
+ 	width: 50%;
+ 	float:left;
+ 	height: 90px;
+ 	background-color:blueviolet;
+ 	/* padding: 3px; */
+ 	color: #fff;
+ 	text-align: center;
+ }
+
+ .footer p{
+ 	margin:0;
+ }
